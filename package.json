@@ -1,0 +1,32 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "description": "Repository thought to build a jamstack application with NextJS, Netlify CMS and Netlify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarMattos/jamstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarMattos/jamstack/issues"
+  },
+  "homepage": "https://github.com/oscarMattos/jamstack#readme",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "frontmatter-markdown-loader": "^3.6.3"
+  }
+}
